@@ -23,10 +23,10 @@ We also considered the following under/oversampling methods to address the imbal
 > Various nearest neighbor methods are able to undersampling;   
 > Ensemble methods mean that we use both the oversampling and undersampling methods at the same time.   
 
-We refer to a survey paper **[1]** for more detailed information.   
+We refer to a survey paper [1] for more detailed information.   
 *[1] G. Lemaˆıtre, F. Nogueira, and C. K. Aridas, “Imbalanced-learn: A python toolbox to tackle the curse of imbalanced datasets in machine learning,” JMLR, vol. 18, no. 17, pp. 1–5, 2017.*
 
 ## Best Hyperparameters (Our Method)
 * thresholds: (ths+ = 0.7, ths− = 0.7)
-* embedding: DeepWalk
+* embedding: DeepWalk (We set the dimension of the embeddings to 128)
 * similarity: RBF kernel
