@@ -1,7 +1,6 @@
 ## Hardware Environments   
 We conducted our experiments on the machines with i9-9900K, 64GB RAM, and GTX 1070.   
 
-&nbsp;
 ## Software Environments   
 As our experiments utilize many different types of baseline methods, our software environments are rather complicated.   
 The selected list of important software/libraries are as follows:
@@ -13,7 +12,6 @@ The selected list of important software/libraries are as follows:
 > NetworkX ver 2.4,   
 > Imbalanced-learn ver 0.6.1.   
 
-&nbsp;
 ## Under/oversampling Methods
 We also considered the following under/oversampling methods to address the imbalanced class problem:
 > Naive random oversampling and undersampling are randomly choose samples to add and drop, respectively;   
@@ -28,8 +26,7 @@ We also considered the following under/oversampling methods to address the imbal
 We refer to a survey paper **[1]** for more detailed information.   
 *[1] G. Lemaˆıtre, F. Nogueira, and C. K. Aridas, “Imbalanced-learn: A python toolbox to tackle the curse of imbalanced datasets in machine learning,” JMLR, vol. 18, no. 17, pp. 1–5, 2017.*
 
-&nbsp;
 ## Best Hyperparameters (Our Method)
 * thresholds: (ths+ = 0.7, ths− = 0.7)
-* embedding: DeepWalk (Doc2Vec produces the best result only for the simple network and RBF kernel environment)
+* embedding: DeepWalk
 * similarity: Cosine similarity
