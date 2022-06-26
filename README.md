@@ -29,4 +29,4 @@ We refer to a survey paper **[1]** for more detailed information.
 ## Best Hyperparameters (Our Method)
 * thresholds: (ths+ = 0.7, ths− = 0.7)
 * embedding: DeepWalk
-* similarity: Cosine similarity
+* similarity: RBF kernel
